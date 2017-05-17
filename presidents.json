@@ -1,11 +1,3 @@
-[
- {
-   "PRESIDENT": "PRESIDENT",
-   "BIRTH DATE": "  BIRTH DATE",
-   "BIRTH PLACE": " BIRTH PLACE",
-   "DEATH DATE": "    DEATH DATE",
-   "LOCATION OF DEATH": " LOCATION OF DEATH"
- },
  {
    "PRESIDENT": "George Washington",
    "BIRTH DATE": "  Feb 22 1732",
@@ -307,4 +299,3 @@
    "DEATH DATE": "    ",
    "LOCATION OF DEATH": ""
  }
-]
