@@ -83,13 +83,8 @@
 				presidentsArray[i] = lines[i].split(',');	//Split by comma
 			}
 			
-			/*for(var i=0;i<presidentsArray.length;i++){	//Print all
-				console.log(presidentsArray[i][0]+presidentsArray[i][1]+presidentsArray[i][2]+presidentsArray[i][3]+presidentsArray[i][4]);
-			}*/
-			
 			function checkAlive(date) {
 				for(var i=0;i<presidentsArray.length;i++){
-				//console.log(presidentsArray[i][0]+" "+parseInt(presidentsArray[i][3].substring(7,12)));
 					if((date<=parseInt(presidentsArray[i][3].substring(7,12))&&date>parseInt(presidentsArray[i][1].substring(7,12)))||(presidentsArray[i][3]==" " && date>parseInt(presidentsArray[i][1].substring(7,12)))){
 						document.getElementById("superInfo").innerHTML += presidentsArray[i][0]+"<br>";
 					}
