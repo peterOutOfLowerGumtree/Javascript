@@ -1,5 +1,5 @@
 # Javascript
-Work done during week 2 of training
+Work done during week 3 of training
 
 Includes:
 
